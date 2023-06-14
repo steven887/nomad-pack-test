@@ -4,7 +4,7 @@ app {
 }
 
 pack {
-  name = "docman-user-service"
+  name = "docman_user_service"
   description = "docman_user_service chart, tech stack that used by kliklabs nomad docman"
   url = "https://gitlab.com/kliklab/usecase/aesc/docman-nomad-chart"
   version = "0.0.1"
