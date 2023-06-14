@@ -1,7 +1,7 @@
 job [[ template "job_name" . ]] {
     [[ template "region" . ]]
 
-    namespace = [[ .docman_user_service.namespace ]]
+    namespace = "docman"
     datacenters = [[ .docman_user_service.datacenters | toStringList ]]
 
     constraint {
